@@ -1,0 +1,446 @@
+{
+  "nodes": [
+    {
+      "id": "g-prep",
+      "type": "group",
+      "x": -610,
+      "y": -250,
+      "width": 550,
+      "height": 1750,
+      "label": "CONSULTA DO MESTRE",
+      "color": "6"
+    },
+    {
+      "id": "00-Painel-de-mesa",
+      "type": "file",
+      "file": "00-Painel-de-mesa.md",
+      "x": -570,
+      "y": -180,
+      "width": 470,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "M01-Verdade-oculta",
+      "type": "file",
+      "file": "01-Mestre/M01-Verdade-oculta.md",
+      "x": -570,
+      "y": 225,
+      "width": 470,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "T01-Combate-e-inimigos",
+      "type": "file",
+      "file": "07-Mesa/T01-Combate-e-inimigos.md",
+      "x": -570,
+      "y": 630,
+      "width": 470,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "T02-Relogios-e-corrupcao",
+      "type": "file",
+      "file": "07-Mesa/T02-Relogios-e-corrupcao.md",
+      "x": -570,
+      "y": 1035,
+      "width": 470,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "g-flow",
+      "type": "group",
+      "x": 0,
+      "y": -200,
+      "width": 3570,
+      "height": 1620,
+      "label": "CENAS · decisões e caminhos alternativos",
+      "color": "5"
+    },
+    {
+      "id": "C01-A-ingestao-e-o-incendio",
+      "type": "file",
+      "file": "02-Cenas/C01-A-ingestao-e-o-incendio.md",
+      "x": 45,
+      "y": 520,
+      "width": 500,
+      "height": 330,
+      "color": "1"
+    },
+    {
+      "id": "C02-O-corredor-de-triagem",
+      "type": "file",
+      "file": "02-Cenas/C02-O-corredor-de-triagem.md",
+      "x": 590,
+      "y": 520,
+      "width": 500,
+      "height": 330,
+      "color": "5"
+    },
+    {
+      "id": "C03-O-arquivo-em-chamas",
+      "type": "file",
+      "file": "02-Cenas/C03-O-arquivo-em-chamas.md",
+      "x": 1160,
+      "y": -90,
+      "width": 500,
+      "height": 330,
+      "color": "5"
+    },
+    {
+      "id": "C04-A-enfermaria-trancada",
+      "type": "file",
+      "file": "02-Cenas/C04-A-enfermaria-trancada.md",
+      "x": 1160,
+      "y": 520,
+      "width": 500,
+      "height": 330,
+      "color": "5"
+    },
+    {
+      "id": "C05-A-sala-da-segunda-voz",
+      "type": "file",
+      "file": "02-Cenas/C05-A-sala-da-segunda-voz.md",
+      "x": 1160,
+      "y": 1040,
+      "width": 500,
+      "height": 330,
+      "color": "5"
+    },
+    {
+      "id": "C06-O-patio-e-o-portao",
+      "type": "file",
+      "file": "02-Cenas/C06-O-patio-e-o-portao.md",
+      "x": 1760,
+      "y": 520,
+      "width": 500,
+      "height": 330,
+      "color": "1"
+    },
+    {
+      "id": "C07-Chuva-sobre-Trier",
+      "type": "file",
+      "file": "02-Cenas/C07-Chuva-sobre-Trier.md",
+      "x": 2340,
+      "y": 520,
+      "width": 500,
+      "height": 330,
+      "color": "1"
+    },
+    {
+      "id": "C08-Abrigo-e-gancho-final",
+      "type": "file",
+      "file": "02-Cenas/C08-Abrigo-e-gancho-final.md",
+      "x": 2920,
+      "y": 520,
+      "width": 500,
+      "height": 330,
+      "color": "5"
+    },
+    {
+      "id": "g-evidence",
+      "type": "group",
+      "x": 50,
+      "y": 1510,
+      "width": 3430,
+      "height": 450,
+      "label": "PROVAS QUE MOVEM A HISTÓRIA",
+      "color": "3"
+    },
+    {
+      "id": "P02-Dois-procedimentos",
+      "type": "file",
+      "file": "05-Pistas/P02-Dois-procedimentos.md",
+      "x": 80,
+      "y": 1580,
+      "width": 520,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "P03-Paciente-17",
+      "type": "file",
+      "file": "05-Pistas/P03-Paciente-17.md",
+      "x": 640,
+      "y": 1580,
+      "width": 520,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "P04-Rota-Bellombre",
+      "type": "file",
+      "file": "05-Pistas/P04-Rota-Bellombre.md",
+      "x": 1200,
+      "y": 1580,
+      "width": 520,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "P05-Contencao-imediata",
+      "type": "file",
+      "file": "05-Pistas/P05-Contencao-imediata.md",
+      "x": 1760,
+      "y": 1580,
+      "width": 520,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "M03-Matriz-de-pistas",
+      "type": "file",
+      "file": "01-Mestre/M03-Matriz-de-pistas.md",
+      "x": 2320,
+      "y": 1580,
+      "width": 520,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "L03-Encadernacao-Bellombre",
+      "type": "file",
+      "file": "03-Locais/L03-Encadernacao-Bellombre.md",
+      "x": 2880,
+      "y": 1580,
+      "width": 520,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "g-people",
+      "type": "group",
+      "x": 50,
+      "y": 2050,
+      "width": 3430,
+      "height": 440,
+      "label": "PESSOAS · interesses, ajuda e oposição",
+      "color": "4"
+    },
+    {
+      "id": "N01-Elara-Voss",
+      "type": "file",
+      "file": "04-Pessoas/N01-Elara-Voss.md",
+      "x": 80,
+      "y": 2120,
+      "width": 520,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "N02-Emilie-Renaud",
+      "type": "file",
+      "file": "04-Pessoas/N02-Emilie-Renaud.md",
+      "x": 640,
+      "y": 2120,
+      "width": 520,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "N03-Bastien-Morel",
+      "type": "file",
+      "file": "04-Pessoas/N03-Bastien-Morel.md",
+      "x": 1200,
+      "y": 2120,
+      "width": 520,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "N04-Mael-Duroc",
+      "type": "file",
+      "file": "04-Pessoas/N04-Mael-Duroc.md",
+      "x": 1760,
+      "y": 2120,
+      "width": 520,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "N05-Lucien-Armand",
+      "type": "file",
+      "file": "04-Pessoas/N05-Lucien-Armand.md",
+      "x": 2320,
+      "y": 2120,
+      "width": 520,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "M04-Se-os-jogadores-fizerem-isso",
+      "type": "file",
+      "file": "01-Mestre/M04-Se-os-jogadores-fizerem-isso.md",
+      "x": 2880,
+      "y": 2120,
+      "width": 520,
+      "height": 300,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "C01-A-ingestao-e-o-incendio",
+      "fromSide": "right",
+      "toNode": "C02-O-corredor-de-triagem",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "interrupção / liberdade",
+      "color": "5"
+    },
+    {
+      "id": "e2",
+      "fromNode": "C02-O-corredor-de-triagem",
+      "fromSide": "right",
+      "toNode": "C03-O-arquivo-em-chamas",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "escolha de prioridade",
+      "color": "5"
+    },
+    {
+      "id": "e3",
+      "fromNode": "C03-O-arquivo-em-chamas",
+      "fromSide": "right",
+      "toNode": "C06-O-patio-e-o-portao",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "investigar e sair",
+      "color": "5"
+    },
+    {
+      "id": "e4",
+      "fromNode": "C02-O-corredor-de-triagem",
+      "fromSide": "right",
+      "toNode": "C04-A-enfermaria-trancada",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "escolha de prioridade",
+      "color": "5"
+    },
+    {
+      "id": "e5",
+      "fromNode": "C04-A-enfermaria-trancada",
+      "fromSide": "right",
+      "toNode": "C06-O-patio-e-o-portao",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "investigar e sair",
+      "color": "5"
+    },
+    {
+      "id": "e6",
+      "fromNode": "C02-O-corredor-de-triagem",
+      "fromSide": "right",
+      "toNode": "C05-A-sala-da-segunda-voz",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "escolha de prioridade",
+      "color": "5"
+    },
+    {
+      "id": "e7",
+      "fromNode": "C05-A-sala-da-segunda-voz",
+      "fromSide": "right",
+      "toNode": "C06-O-patio-e-o-portao",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "investigar e sair",
+      "color": "5"
+    },
+    {
+      "id": "e8",
+      "fromNode": "C06-O-patio-e-o-portao",
+      "fromSide": "right",
+      "toNode": "C07-Chuva-sobre-Trier",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "se existe perseguidor",
+      "color": "1"
+    },
+    {
+      "id": "e9",
+      "fromNode": "C07-Chuva-sobre-Trier",
+      "fromSide": "right",
+      "toNode": "C08-Abrigo-e-gancho-final",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "quebrar contato",
+      "color": "1"
+    },
+    {
+      "id": "e10",
+      "fromNode": "C06-O-patio-e-o-portao",
+      "fromSide": "top",
+      "toNode": "C08-Abrigo-e-gancho-final",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "fuga limpa → abrigo",
+      "color": "4"
+    },
+    {
+      "id": "e11",
+      "fromNode": "C03-O-arquivo-em-chamas",
+      "fromSide": "bottom",
+      "toNode": "P02-Dois-procedimentos",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "poção ≠ exposição",
+      "color": "3"
+    },
+    {
+      "id": "e12",
+      "fromNode": "C04-A-enfermaria-trancada",
+      "fromSide": "bottom",
+      "toNode": "P03-Paciente-17",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "testemunha e registro",
+      "color": "3"
+    },
+    {
+      "id": "e13",
+      "fromNode": "C05-A-sala-da-segunda-voz",
+      "fromSide": "bottom",
+      "toNode": "P05-Contencao-imediata",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "interromper o foco",
+      "color": "3"
+    },
+    {
+      "id": "e14",
+      "fromNode": "P04-Rota-Bellombre",
+      "fromSide": "right",
+      "toNode": "L03-Encadernacao-Bellombre",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "próximo endereço",
+      "color": "3"
+    },
+    {
+      "id": "e15",
+      "fromNode": "N02-Emilie-Renaud",
+      "fromSide": "right",
+      "toNode": "N03-Bastien-Morel",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "quer resgatá-lo",
+      "color": "4"
+    },
+    {
+      "id": "e16",
+      "fromNode": "N03-Bastien-Morel",
+      "fromSide": "right",
+      "toNode": "N05-Lucien-Armand",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "lembra o sobrevivente",
+      "color": "4"
+    }
+  ]
+}

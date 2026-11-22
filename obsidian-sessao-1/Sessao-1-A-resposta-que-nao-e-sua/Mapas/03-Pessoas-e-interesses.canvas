@@ -1,0 +1,296 @@
+{
+  "nodes": [
+    {
+      "id": "g-outside",
+      "type": "group",
+      "x": -60,
+      "y": -60,
+      "width": 1560,
+      "height": 450,
+      "label": "CONTEXTO · conhecimento do mestre",
+      "color": "6"
+    },
+    {
+      "id": "entity",
+      "type": "text",
+      "text": "# Delírio Inextinguível\n\nA ameaça exterior. A presença desta aventura é um vestígio limitado; não há descida plena nesta sessão.",
+      "x": 0,
+      "y": 20,
+      "width": 650,
+      "height": 300,
+      "color": "6"
+    },
+    {
+      "id": "M01-Verdade-oculta",
+      "type": "file",
+      "file": "01-Mestre/M01-Verdade-oculta.md",
+      "x": 770,
+      "y": 20,
+      "width": 650,
+      "height": 300,
+      "color": "6"
+    },
+    {
+      "id": "g-cult",
+      "type": "group",
+      "x": -60,
+      "y": 460,
+      "width": 1560,
+      "height": 950,
+      "label": "CÉLULA LOCAL · preservar foco e registros",
+      "color": "1"
+    },
+    {
+      "id": "N01-Elara-Voss",
+      "type": "file",
+      "file": "04-Pessoas/N01-Elara-Voss.md",
+      "x": 0,
+      "y": 540,
+      "width": 650,
+      "height": 330,
+      "color": "1"
+    },
+    {
+      "id": "O01-Caderno-das-Respostas",
+      "type": "file",
+      "file": "06-Objetos/O01-Caderno-das-Respostas.md",
+      "x": 770,
+      "y": 540,
+      "width": 650,
+      "height": 330,
+      "color": "1"
+    },
+    {
+      "id": "P06-Sinais-da-organizacao",
+      "type": "file",
+      "file": "05-Pistas/P06-Sinais-da-organizacao.md",
+      "x": 0,
+      "y": 980,
+      "width": 650,
+      "height": 330,
+      "color": "1"
+    },
+    {
+      "id": "O02-Recipiente-de-transporte",
+      "type": "file",
+      "file": "06-Objetos/O02-Recipiente-de-transporte.md",
+      "x": 770,
+      "y": 980,
+      "width": 650,
+      "height": 330,
+      "color": "3"
+    },
+    {
+      "id": "g-group",
+      "type": "group",
+      "x": 1640,
+      "y": -60,
+      "width": 1560,
+      "height": 1470,
+      "label": "VÍTIMAS E ALIADOS",
+      "color": "4"
+    },
+    {
+      "id": "party",
+      "type": "text",
+      "text": "# OS PERSONAGENS\n\nSequência 9 · marca 1/6 · escapar, compreender e buscar contenção. Caminhos escolhidos pelos jogadores.",
+      "x": 1700,
+      "y": 20,
+      "width": 650,
+      "height": 300,
+      "color": "5"
+    },
+    {
+      "id": "N02-Emilie-Renaud",
+      "type": "file",
+      "file": "04-Pessoas/N02-Emilie-Renaud.md",
+      "x": 2470,
+      "y": 20,
+      "width": 650,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "N03-Bastien-Morel",
+      "type": "file",
+      "file": "04-Pessoas/N03-Bastien-Morel.md",
+      "x": 1700,
+      "y": 540,
+      "width": 650,
+      "height": 330,
+      "color": "4"
+    },
+    {
+      "id": "N04-Mael-Duroc",
+      "type": "file",
+      "file": "04-Pessoas/N04-Mael-Duroc.md",
+      "x": 2470,
+      "y": 540,
+      "width": 650,
+      "height": 330,
+      "color": "2"
+    },
+    {
+      "id": "N05-Lucien-Armand",
+      "type": "file",
+      "file": "04-Pessoas/N05-Lucien-Armand.md",
+      "x": 1700,
+      "y": 980,
+      "width": 650,
+      "height": 330,
+      "color": "4"
+    },
+    {
+      "id": "L02-Pensao-da-Agulha",
+      "type": "file",
+      "file": "03-Locais/L02-Pensao-da-Agulha.md",
+      "x": 2470,
+      "y": 980,
+      "width": 650,
+      "height": 330,
+      "color": "4"
+    },
+    {
+      "id": "g-next",
+      "type": "group",
+      "x": 1640,
+      "y": 1480,
+      "width": 1560,
+      "height": 450,
+      "label": "GANCHO PRÓXIMO",
+      "color": "3"
+    },
+    {
+      "id": "L03-Encadernacao-Bellombre",
+      "type": "file",
+      "file": "03-Locais/L03-Encadernacao-Bellombre.md",
+      "x": 1700,
+      "y": 1560,
+      "width": 650,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "P04-Rota-Bellombre",
+      "type": "file",
+      "file": "05-Pistas/P04-Rota-Bellombre.md",
+      "x": 2470,
+      "y": 1560,
+      "width": 650,
+      "height": 300,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "entity",
+      "fromSide": "right",
+      "toNode": "O01-Caderno-das-Respostas",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "vestígio de influência",
+      "color": "6"
+    },
+    {
+      "id": "e2",
+      "fromNode": "N01-Elara-Voss",
+      "fromSide": "right",
+      "toNode": "O01-Caderno-das-Respostas",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "usa no experimento",
+      "color": "1"
+    },
+    {
+      "id": "e3",
+      "fromNode": "O01-Caderno-das-Respostas",
+      "fromSide": "right",
+      "toNode": "party",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "ligação incompleta",
+      "color": "1"
+    },
+    {
+      "id": "e4",
+      "fromNode": "O02-Recipiente-de-transporte",
+      "fromSide": "right",
+      "toNode": "O01-Caderno-das-Respostas",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "contém atividade local",
+      "color": "3"
+    },
+    {
+      "id": "e5",
+      "fromNode": "N02-Emilie-Renaud",
+      "fromSide": "right",
+      "toNode": "party",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "abre contenções / oferece chave",
+      "color": "4"
+    },
+    {
+      "id": "e6",
+      "fromNode": "N02-Emilie-Renaud",
+      "fromSide": "right",
+      "toNode": "N03-Bastien-Morel",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "quer resgatar",
+      "color": "4"
+    },
+    {
+      "id": "e7",
+      "fromNode": "N03-Bastien-Morel",
+      "fromSide": "right",
+      "toNode": "N05-Lucien-Armand",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "lembra nome e saída",
+      "color": "4"
+    },
+    {
+      "id": "e8",
+      "fromNode": "N04-Mael-Duroc",
+      "fromSide": "right",
+      "toNode": "party",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "barra passagem / pode negociar",
+      "color": "2"
+    },
+    {
+      "id": "e9",
+      "fromNode": "N05-Lucien-Armand",
+      "fromSide": "right",
+      "toNode": "L03-Encadernacao-Bellombre",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "está alojado nos fundos",
+      "color": "4"
+    },
+    {
+      "id": "e10",
+      "fromNode": "L02-Pensao-da-Agulha",
+      "fromSide": "right",
+      "toNode": "party",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "abrigo de Jeanne",
+      "color": "4"
+    },
+    {
+      "id": "e11",
+      "fromNode": "P04-Rota-Bellombre",
+      "fromSide": "right",
+      "toNode": "L03-Encadernacao-Bellombre",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "endereço verificável",
+      "color": "3"
+    }
+  ]
+}

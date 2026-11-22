@@ -1,0 +1,486 @@
+{
+  "nodes": [
+    {
+      "id": "g-sources",
+      "type": "group",
+      "x": -40,
+      "y": -40,
+      "width": 1650,
+      "height": 1460,
+      "label": "FONTES INDEPENDENTES",
+      "color": "5"
+    },
+    {
+      "id": "P01-Admissoes-e-pertences",
+      "type": "file",
+      "file": "05-Pistas/P01-Admissoes-e-pertences.md",
+      "x": 0,
+      "y": 45,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "P02-Dois-procedimentos",
+      "type": "file",
+      "file": "05-Pistas/P02-Dois-procedimentos.md",
+      "x": 530,
+      "y": 45,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "P03-Paciente-17",
+      "type": "file",
+      "file": "05-Pistas/P03-Paciente-17.md",
+      "x": 1060,
+      "y": 45,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "P04-Rota-Bellombre",
+      "type": "file",
+      "file": "05-Pistas/P04-Rota-Bellombre.md",
+      "x": 0,
+      "y": 495,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "P05-Contencao-imediata",
+      "type": "file",
+      "file": "05-Pistas/P05-Contencao-imediata.md",
+      "x": 530,
+      "y": 495,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "P06-Sinais-da-organizacao",
+      "type": "file",
+      "file": "05-Pistas/P06-Sinais-da-organizacao.md",
+      "x": 1060,
+      "y": 495,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "P07-Notas-de-acompanhamento",
+      "type": "file",
+      "file": "05-Pistas/P07-Notas-de-acompanhamento.md",
+      "x": 0,
+      "y": 945,
+      "width": 490,
+      "height": 350,
+      "color": "3"
+    },
+    {
+      "id": "g-findings",
+      "type": "group",
+      "x": 1740,
+      "y": -40,
+      "width": 640,
+      "height": 1460,
+      "label": "CONCLUSÕES ESSENCIAIS",
+      "color": "3"
+    },
+    {
+      "id": "qA",
+      "type": "text",
+      "text": "# Duas operações\n\nA poção transforma. A exposição ao texto estabeleceu a ligação.",
+      "x": 1780,
+      "y": 45,
+      "width": 550,
+      "height": 255,
+      "color": "3"
+    },
+    {
+      "id": "qB",
+      "type": "text",
+      "text": "# A fuga não cura\n\nAfastamento interrompe contato imediato; acompanhamento continua necessário.",
+      "x": 1780,
+      "y": 395,
+      "width": 550,
+      "height": 255,
+      "color": "3"
+    },
+    {
+      "id": "qC",
+      "type": "text",
+      "text": "# Houve um sobrevivente\n\nPaciente 17 = Lucien Armand. Ele deixou o instituto vivo.",
+      "x": 1780,
+      "y": 745,
+      "width": 550,
+      "height": 255,
+      "color": "3"
+    },
+    {
+      "id": "qD",
+      "type": "text",
+      "text": "# Bellombre é o próximo passo\n\nEndereço completo e ligação comercial; intenções da oficina ainda precisam ser investigadas.",
+      "x": 1780,
+      "y": 1095,
+      "width": 550,
+      "height": 255,
+      "color": "3"
+    },
+    {
+      "id": "g-witness",
+      "type": "group",
+      "x": -40,
+      "y": 1500,
+      "width": 2420,
+      "height": 460,
+      "label": "TESTEMUNHAS ALTERNATIVAS",
+      "color": "4"
+    },
+    {
+      "id": "N02-Emilie-Renaud",
+      "type": "file",
+      "file": "04-Pessoas/N02-Emilie-Renaud.md",
+      "x": 10,
+      "y": 1570,
+      "width": 540,
+      "height": 310,
+      "color": "4"
+    },
+    {
+      "id": "N03-Bastien-Morel",
+      "type": "file",
+      "file": "04-Pessoas/N03-Bastien-Morel.md",
+      "x": 600,
+      "y": 1570,
+      "width": 540,
+      "height": 310,
+      "color": "4"
+    },
+    {
+      "id": "N01-Elara-Voss",
+      "type": "file",
+      "file": "04-Pessoas/N01-Elara-Voss.md",
+      "x": 1190,
+      "y": 1570,
+      "width": 540,
+      "height": 310,
+      "color": "4"
+    },
+    {
+      "id": "M03-Matriz-de-pistas",
+      "type": "file",
+      "file": "01-Mestre/M03-Matriz-de-pistas.md",
+      "x": 1780,
+      "y": 1570,
+      "width": 540,
+      "height": 310,
+      "color": "4"
+    },
+    {
+      "id": "g-handouts",
+      "type": "group",
+      "x": 2500,
+      "y": -40,
+      "width": 1110,
+      "height": 1960,
+      "label": "DOCUMENTOS PARA ENTREGAR",
+      "color": "6"
+    },
+    {
+      "id": "H01-Ficha-de-admissao",
+      "type": "file",
+      "file": "08-Handouts/H01-Ficha-de-admissao.md",
+      "x": 2540,
+      "y": 40,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H02-Protocolo-clinico",
+      "type": "file",
+      "file": "08-Handouts/H02-Protocolo-clinico.md",
+      "x": 3070,
+      "y": 40,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H03-Bilhete-do-paciente-17",
+      "type": "file",
+      "file": "08-Handouts/H03-Bilhete-do-paciente-17.md",
+      "x": 2540,
+      "y": 495,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H04-Etiqueta-de-entrega",
+      "type": "file",
+      "file": "08-Handouts/H04-Etiqueta-de-entrega.md",
+      "x": 3070,
+      "y": 495,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H05-Instrucao-de-contencao",
+      "type": "file",
+      "file": "08-Handouts/H05-Instrucao-de-contencao.md",
+      "x": 2540,
+      "y": 950,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H06-Folheto-do-instituto",
+      "type": "file",
+      "file": "08-Handouts/H06-Folheto-do-instituto.md",
+      "x": 3070,
+      "y": 950,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H07-Notas-de-acompanhamento",
+      "type": "file",
+      "file": "08-Handouts/H07-Notas-de-acompanhamento.md",
+      "x": 2540,
+      "y": 1405,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    },
+    {
+      "id": "H08-Planta-sem-segredos",
+      "type": "file",
+      "file": "08-Handouts/H08-Planta-sem-segredos.md",
+      "x": 3070,
+      "y": 1405,
+      "width": 490,
+      "height": 350,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "P01-Admissoes-e-pertences",
+      "fromSide": "right",
+      "toNode": "qA",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e2",
+      "fromNode": "P02-Dois-procedimentos",
+      "fromSide": "right",
+      "toNode": "qA",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e3",
+      "fromNode": "P07-Notas-de-acompanhamento",
+      "fromSide": "right",
+      "toNode": "qA",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e4",
+      "fromNode": "P03-Paciente-17",
+      "fromSide": "right",
+      "toNode": "qB",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e5",
+      "fromNode": "P05-Contencao-imediata",
+      "fromSide": "right",
+      "toNode": "qB",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e6",
+      "fromNode": "P07-Notas-de-acompanhamento",
+      "fromSide": "right",
+      "toNode": "qB",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e7",
+      "fromNode": "P03-Paciente-17",
+      "fromSide": "right",
+      "toNode": "qC",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e8",
+      "fromNode": "P04-Rota-Bellombre",
+      "fromSide": "right",
+      "toNode": "qD",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e9",
+      "fromNode": "P03-Paciente-17",
+      "fromSide": "right",
+      "toNode": "qD",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "evidência",
+      "color": "3"
+    },
+    {
+      "id": "e10",
+      "fromNode": "N02-Emilie-Renaud",
+      "fromSide": "top",
+      "toNode": "qA",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "pode confirmar",
+      "color": "4"
+    },
+    {
+      "id": "e11",
+      "fromNode": "N02-Emilie-Renaud",
+      "fromSide": "top",
+      "toNode": "qD",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "pode confirmar",
+      "color": "4"
+    },
+    {
+      "id": "e12",
+      "fromNode": "N03-Bastien-Morel",
+      "fromSide": "top",
+      "toNode": "qB",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "pode confirmar",
+      "color": "4"
+    },
+    {
+      "id": "e13",
+      "fromNode": "N03-Bastien-Morel",
+      "fromSide": "top",
+      "toNode": "qC",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "pode confirmar",
+      "color": "4"
+    },
+    {
+      "id": "e14",
+      "fromNode": "N01-Elara-Voss",
+      "fromSide": "top",
+      "toNode": "qD",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "pode confirmar",
+      "color": "4"
+    },
+    {
+      "id": "e15",
+      "fromNode": "P01-Admissoes-e-pertences",
+      "fromSide": "right",
+      "toNode": "H01-Ficha-de-admissao",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    },
+    {
+      "id": "e16",
+      "fromNode": "P02-Dois-procedimentos",
+      "fromSide": "right",
+      "toNode": "H02-Protocolo-clinico",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    },
+    {
+      "id": "e17",
+      "fromNode": "P03-Paciente-17",
+      "fromSide": "right",
+      "toNode": "H03-Bilhete-do-paciente-17",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    },
+    {
+      "id": "e18",
+      "fromNode": "P04-Rota-Bellombre",
+      "fromSide": "right",
+      "toNode": "H04-Etiqueta-de-entrega",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    },
+    {
+      "id": "e19",
+      "fromNode": "P05-Contencao-imediata",
+      "fromSide": "right",
+      "toNode": "H05-Instrucao-de-contencao",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    },
+    {
+      "id": "e20",
+      "fromNode": "P06-Sinais-da-organizacao",
+      "fromSide": "right",
+      "toNode": "H06-Folheto-do-instituto",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    },
+    {
+      "id": "e21",
+      "fromNode": "P07-Notas-de-acompanhamento",
+      "fromSide": "right",
+      "toNode": "H07-Notas-de-acompanhamento",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "entregar cópia",
+      "color": "6"
+    }
+  ]
+}

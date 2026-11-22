@@ -1,0 +1,15 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+
+# Unsigned / temporary APKs
+android/apks/*-unsigned.apk
+*.idsig
+
+# Node / Logs
+node_modules/
+npm-debug.log*

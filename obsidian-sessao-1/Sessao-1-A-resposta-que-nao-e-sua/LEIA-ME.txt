@@ -1,0 +1,9 @@
+A RESPOSTA QUE NÃO É SUA
+
+Extraia o pacote e abra esta pasta como vault no Obsidian. Comece em 00-COMECE-AQUI.md ou abra Mapas/01-Fluxo-da-sessao.canvas.
+
+Sem Obsidian, abra index.html no navegador. O leitor e os mapas funcionam offline; os links às plantas são arquivos locais. Guia-do-mestre.pdf contém os segredos. Handouts-jogadores.pdf contém somente os documentos para entregar.
+
+Não envie o vault inteiro aos jogadores: ele inclui respostas e consequências. Não são necessários plugins da comunidade.
+
+Adaptação de fã, não oficial.

@@ -1,0 +1,5 @@
+const CACHE='ab-mestre-cache-v1';
+const SHELL=['./','./index.html','./styles.css','./gm-app.js','./gm-core.js','./rules.js','./seed.js','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png','./maps/planta-mestre.svg','./maps/planta-jogadores.svg','./downloads/regras-essenciais.pdf','./downloads/sessao-1-guia-do-mestre.pdf','./downloads/sessao-1-handouts.pdf','./downloads/sessao-1-obsidian.zip'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('ab-mestre-cache-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin)return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).catch(()=>e.request.mode==='navigate'?caches.match('./index.html'):Response.error())));});
